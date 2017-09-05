@@ -1,0 +1,5 @@
+<project default = "Compile">
+	<target name = "Compile">
+		<javac srcdir = "." destdir = "." includeantruntime = "false" fork = "true"/>
+	</target>
+</project>
